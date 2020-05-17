@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+}
+
+.container {
+    width: 1070px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.title--big {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.list--links {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    padding: 4px 0;
+    color: #333;
+    border-bottom: 2px solid #333;
+    transition: all .3s;
+}
+
+a:hover {
+    border-bottom: 2px solid transparent;
+}
