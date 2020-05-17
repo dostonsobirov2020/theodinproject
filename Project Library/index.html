@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Project: Library</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title--big">Project: Library</h1>
+        <ul class="list--links">
+            <li class="list--links-item"><a href="../index.html">Back to home page</a></li>
+        </ul>
+
+        <form class="form--add-book" id="form--add-book">
+            <h2 class="title--medium">Add new book</h2>
+            <div class="form-group">
+                <label for="input-title">Book title</label>
+                <input type="text" id="input-title" placeholder="Enter book title">
+                <small>Please fill in the book title</small>
+            </div>
+
+            <div class="form-group">
+                <label for="input-author">Book author</label>
+                <input type="text" id="input-author" placeholder="Enter book author">
+                <small>Please fill in the author name</small>
+            </div>
+
+            <div class="form-group">
+                <label for="input-pages">Book pages</label>
+                <input type="number" id="input-pages" placeholder="Enter number of pages">
+                <small>Please fill in the number of pages</small>
+            </div>
+
+            <div class="form-group">
+                <input type="checkbox" id="input-isRead" class="input-checkbox">
+                <label for="input-isRead" class="label--checkbox">is read</label>
+            </div>
+
+            <button type="submit" id="btn--submit-book" class="btn--submit--book">Add book</button>
+        </form>
+
+        <div class="books" id="books">
+
+            <!-- <div class="book">
+                <h2 class="book-title">The Hobbit</h2>
+                <p class="book-author">Author - <strong>J.R.R. Tolkien</strong></p>
+                <p class="book-pages">298 pages</p>
+                <p class="book-isRerad">
+                    <input type="checkbox" id="input--book-isRead">
+                    <label for="input--book-isRead">Is Read</label>
+                </p>
+                <div class="book-remove">X</div>
+            </div>
+            
+            <div class="book">
+                <h2 class="book-title">The Hobbit</h2>
+                <p class="book-author">Author - <strong>J.R.R. Tolkien</strong></p>
+                <p class="book-pages">298 pages</p>
+                <p class="book-isRead">
+                    <input type="checkbox" id="input--book-isRead">
+                    <label for="input--book-isRead">Is Read</label>
+                </p>
+                <div class="book-remove">X</div>
+            </div>
+
+            <div class="book">
+                <h2 class="book-title">The Hobbit</h2>
+                <p class="book-author">Author - <strong>J.R.R. Tolkien</strong></p>
+                <p class="book-pages">298 pages</p>
+                <p class="book-isRead">
+                    <input type="checkbox" id="input--book-isRead">
+                    <label for="input--book-isRead">Is Read</label>
+                </p>
+                <div class="book-remove">X</div>
+            </div>
+
+            <div class="book">
+                <h2 class="book-title">The Hobbit</h2>
+                <p class="book-author">Author - <strong>J.R.R. Tolkien</strong></p>
+                <p class="book-pages">298 pages</p>
+                <p class="book-isRead">
+                    <input type="checkbox" id="input--book-isRead">
+                    <label for="input--book-isRead">Is Read</label>
+                </p>
+                <div class="book-remove">X</div>
+            </div>
+
+            <div class="book">
+                <h2 class="book-title">The Hobbit</h2>
+                <p class="book-author">Author - <strong>J.R.R. Tolkien</strong></p>
+                <p class="book-pages">298 pages</p>
+                <p class="book-isRead">
+                    <input type="checkbox" id="input--book-isRead">
+                    <label for="input--book-isRead">Is Read</label>
+                </p>
+                <div class="book-remove">X</div>
+            </div> -->
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
